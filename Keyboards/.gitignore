@@ -1,5 +1,6 @@
 # Ignore BuildPath directories
 /ICED-L/
+/ICED-R/
 /IC60/
 /template/
 /WhiteFox/

@@ -24,7 +24,7 @@ BaseMap="defaultMap leftHand slave1 rightHand"
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
 #DefaultMap="mdergo1Overlay lcdFuncMap"
-DefaultMap="MDErgo-1-Default-0 lcdFuncMap"
+DefaultMap="MDErgo1-Default-0 lcdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1

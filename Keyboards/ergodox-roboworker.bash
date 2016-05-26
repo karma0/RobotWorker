@@ -24,7 +24,7 @@ BaseMap="defaultMap leftHand slave1 rightHand"
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
 #DefaultMap="mdergo1Overlay lcdFuncMap"
-DefaultMap="MDErgo1-Default-0 lcdFuncMap"
+DefaultMap="MDErgo1-Blank-0 lcdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -35,14 +35,17 @@ DefaultMap="MDErgo1-Default-0 lcdFuncMap"
 #PartialMaps[1]="iced_func"
 #PartialMaps[2]="iced_numpad"
 
-# define layers 1--7, where 4,5,6 are empty layers.
-PartialMaps[1]="MDErgo1-Default-1 lcdFuncMap"  
-PartialMaps[2]="MDErgo1-Default-2 lcdFuncMap"  
-PartialMaps[3]="MDErgo1-Default-3 lcdFuncMap"  
-PartialMaps[4]="lcdFuncMap"  
-PartialMaps[5]="lcdFuncMap"  
-PartialMaps[6]="lcdFuncMap"  
-PartialMaps[7]="MDErgo1-Default-7 lcdFuncMap"  
+# define layers 1--7
+PartialMaps[1]="MDErgo1-Blank-1 lcdFuncMap"
+PartialMaps[2]="MDErgo1-Blank-2 lcdFuncMap"
+PartialMaps[3]="MDErgo1-Blank-3 lcdFuncMap"
+PartialMaps[4]="MDErgo1-Blank-4 lcdFuncMap"
+PartialMaps[5]="MDErgo1-Blank-5 lcdFuncMap"
+PartialMaps[6]="MDErgo1-Blank-6 lcdFuncMap"
+#PartialMaps[4]="lcdFuncMap"
+#PartialMaps[5]="lcdFuncMap"
+#PartialMaps[6]="lcdFuncMap"
+PartialMaps[7]="MDErgo1-Blank-7 lcdFuncMap"
 
 
 
@@ -76,8 +79,8 @@ Compiler="gcc"
 
 # Check if the library can be found
 if [ ! -f cmake.bash ]; then
-	echo "ERROR: Cannot find 'cmake.bash'"
-	exit 1
+  echo "ERROR: Cannot find 'cmake.bash'"
+  exit 1
 fi
 
 # Load the library

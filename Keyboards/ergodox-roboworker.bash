@@ -35,17 +35,15 @@ DefaultMap="MDErgo1-Blank-0 lcdFuncMap"
 #PartialMaps[1]="iced_func"
 #PartialMaps[2]="iced_numpad"
 
-# define layers 1--7
+# define layers 1--5
 PartialMaps[1]="MDErgo1-Blank-1 lcdFuncMap"
 PartialMaps[2]="MDErgo1-Blank-2 lcdFuncMap"
 PartialMaps[3]="MDErgo1-Blank-3 lcdFuncMap"
 PartialMaps[4]="MDErgo1-Blank-4 lcdFuncMap"
 PartialMaps[5]="MDErgo1-Blank-5 lcdFuncMap"
-PartialMaps[6]="MDErgo1-Blank-6 lcdFuncMap"
 #PartialMaps[4]="lcdFuncMap"
 #PartialMaps[5]="lcdFuncMap"
 #PartialMaps[6]="lcdFuncMap"
-PartialMaps[7]="MDErgo1-Blank-7 lcdFuncMap"
 
 
 

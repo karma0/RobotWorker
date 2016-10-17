@@ -7,7 +7,7 @@ KLL = "0.3c";
 Date = "2015-09-12";
 Generator = "KIICONF 0.2";
 
-U"E" : '~';
+U"E" : U"BACKTICK";
 U"W" : '#';
 U"Q" : '@';
 U"G" : '%';
@@ -20,7 +20,6 @@ U"V" : U"SLASH";
 U"C" : '*';
 U"X" : U"MINUS";
 U"Z" : '+';
-U"0" : U"LAT6";
 U"J" : '>';
 U"K" : U"RBRACE";
 U"L" : ')';
@@ -29,6 +28,6 @@ U"N" : U"EQUAL";
 U"M" : '&';
 U"COMMA" : '|';
 U"PERIOD" : '!';
-U"SLASH" : '?';
+U"SLASH" : '~';
 U"SPACE" : '_';
 
